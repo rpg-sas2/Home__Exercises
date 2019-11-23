@@ -1,0 +1,337 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.ctr{
+    justify-content: center;
+    align-items: center;
+}
+.inl{
+    display:inline-block;
+}
+.flex{
+    display:flex;
+}
+.inlflex{
+    display:inline-flex;
+}
+.W{
+    flex-wrap: wrap;
+}
+.NW{
+    flex-wrap: nowrap;
+}
+.b{ 
+    background-color: black;
+}
+.r{
+    background-color: red;
+}
+.g{
+    background-color: green;
+}
+.y{
+    background-color: yellow;
+}
+.s{
+    font-family: sans-serif;
+}
+.bld{
+    font-weight:bold;
+}
+.f{
+    font-size:15px;
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
+.fix{
+    position:fixed;
+}
+.lg{
+    background-color: lightgray;
+}
+.dg{
+    color:darkgray;
+}
+.bl{
+    color:black;
+}
+.f14{
+    font-size:14px;
+}
+.f9{
+    font-size:9px;
+}
+.p7{
+    padding:7px;
+}
+.p3{
+    padding:3px;
+}
+.p2{
+    padding: 2px;
+}
+.p10{
+    padding-top: 10px;
+}
+.pt7{
+    padding-top:7px;
+}
+.m30{
+    margin-top:30px;
+}
+.m40{
+ margin-top:40px;
+}
+.m10{
+    margin-top: 10px;
+}
+.ml20{
+    margin-left:20px;
+}
+.ptr{
+    cursor:pointer;
+}
+.main__page{
+    width:80%;
+    border-radius: 15px;
+    background-color: white;
+}
+.first__section{
+    width:20%;
+    height:700px;
+    justify-content: center;
+}
+.second__section{
+    width:50%;
+    height:700px;
+    padding-left:2%
+}
+.edukated{
+    width:170px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom:140px;
+    margin-top:50px;
+    align-content:center;
+}
+.h1{
+ 
+  position: relative;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+    width:90px;
+    font-weight:bold;
+}
+.h1:before{
+  content: "kated";
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 50%;
+ 
+  height: 100%;
+  color: red;
+    font-weight:bold;
+}
+.mid__section{
+    width:170px;
+    padding:10px;
+    border-radius:15px;
+    background-color: lightgray;
+    color:darkgray;
+    
+}
+.T{
+    padding:10px;
+    font-size:12px;
+}
+.mid__bottom__section{
+    width:170px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top:20px;
+}
+.Holder h1{
+    font-size:14px;
+    color: black;
+}
+.Holder h2{
+    font-size:9px;
+    color:darkgray;
+}
+.progress__section{
+    width:170px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+    margin:1px;
+}
+.bottom__section{
+    width:170px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.dot__holder{
+    margin-left:20px;
+    padding-top: 7px;
+}
+.streaming__now, .popular__this__week, .top__turors{
+    padding:20px;
+    width:90%;
+}
+.f__1{
+    color:black;
+    font-size:15px;
+    padding-left:1px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.f__2{
+    color:dimgray;
+    font-size:15px;
+    font-family:sans-serif;
+}
+.dot1 {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dots{
+    padding-top: 5px;
+    padding-bottom:5px;
+    background-color: aquamarine;
+    position: absolute;
+    left:50%;
+}
+.icons{
+    padding-left:13px;
+}
+.font__rect__1{
+    font-size:14px;
+    color:black;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-kerning: normal;
+    font-stretch: expanded;
+    padding-left:20px;
+    padding-top:10px;
+}
+.font__rect__2{
+    font-size:9px;
+    color:darkgray;
+    padding:2px;
+    font-family:sans-serif;
+    padding-left:20px;
+}
+.rect__sh{
+    border-radius:15px;
+    width:150px;
+    height:39px;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+.four__rectangles{
+    padding-top:23px;
+    width:450px;
+}
+.background__color{
+    background-color: lightgray;
+    padding:2%;
+}
+.light__bulb{
+    background-color: #9013fe;
+    border-radius:15px;
+    width:35px;
+    height:35px;
+}
+.I1{
+    margin-left:10px;
+}
+.logo1{
+    width:29px;
+    height:29px;
+    background-color: orangered;
+    border-radius:15px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-right:10px;
+}
+.Elogo{
+    font-weight:bold;
+    font-family: sans-serif;
+    color:white;
+    padding-top:5px;
+}
+.gif1{
+    display: inline-block;
+    width: 200px;
+    height:300px;
+    margin-right:30px;
+    border-radius: 15px;
+}

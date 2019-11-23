@@ -1,0 +1,449 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.inl{
+    display:inline-block;
+}
+.inlflex{
+    display:inline-flex;
+}
+.flex{
+    display:flex;
+}
+.b{
+    background-color: black;
+}
+.g{
+    background-color:green;
+}
+.r{
+    background-color:red
+}
+.y{
+    background-color:yellow;
+}
+.wh{
+    background-color:white;
+}
+.W{
+    flex-wrap: wrap;
+}
+.NW{
+    flex-wrap: nowrap;
+}
+.ctr{
+    justify-content: center;
+    align-items: center;
+}
+.width1{
+    width:100%;
+    border-radius: 15px;
+}
+.width2{
+    width:47%;
+    border-radius: 15px;
+}
+.jc{
+    justify-content: center;
+}
+.ai{
+    align-items: center;
+}
+.cg1{
+    color:gray;
+    font-size: 12px;
+}
+.cb1{
+    color:black;
+    font-size: 15px;
+}
+.bcg{
+    background-color: gainsboro;
+}
+.gray__outline{
+    background-color:gray;
+    height:1200px;
+}
+.main__page{
+    width:85%;
+    height:80%;
+    border-radius:19px;
+}
+.first__section{
+    width:20%;
+    height:100%;
+    border-right: 2px;
+    border-style: solid;
+    border-right-color:gray;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+.second__section{
+    width:47.5%;
+    height: 100%;
+}
+.third__section{
+    width:32.5%;
+    height:100%;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.first__section__box{
+    width:80%;
+    height:90%;
+}
+.second__section__box{ 
+    width:80%;
+    height:90%;
+}
+.third__section__box{
+    width:80%;
+    height:90%;
+}
+.progress__section{
+    justify-content: space-between;
+}
+.progress{
+    width:45%;
+    height:100%;
+    border-radius:15px;
+}
+.height1{
+    height:9%;
+}
+.height2{
+    height:25%;
+}
+.height3{
+    height:19%;
+}
+.height4{
+    height:43%;
+}
+.height5{
+    height:21%;
+}
+.height6{
+    height:8%;
+}
+.height7{
+    height: 5%;
+}
+.height8{
+    height:42%;
+}
+.m0{
+}
+.spaceholder1{
+    height: 15%;
+}
+.spaceholder2{
+    height:3%;
+}
+.spaceholder3{
+    height:13%;
+}
+.spaceholder4{
+    height:2%;
+}
+.spaceholder5{
+    height:7%;
+}
+.spaceholder6{
+    height:1%;
+}
+.spaceholder7{
+    height:1%;
+}
+.spaceholder8{
+    height:13%;
+}
+.spaceholder9{
+    width:3%;
+    height:4%;
+    visibility: hidden;
+}
+.spaceholder10{
+    height:30%;
+}
+.spaceholder11{
+    height:15%;
+    width: 100%;
+}
+.spaceholder12{
+    width:2%;
+}
+.spaceholder13{
+    height:4%;
+}
+.spaceholder14{
+    height:7%;
+}
+.spaceholder15{
+    height:1%;
+}
+.edukated{
+    align-items: center;
+}
+.edukated__logo{
+    width:28px;
+    height:28px;
+    border-radius: 15px;
+    background-color: orangered;
+}
+.logo__text{
+    font-size:15px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.edukated h1{
+ 
+  position: relative;
+  font-family: sans-serif;
+  font-size: 19px;
+  color: black;
+    width:90px;
+    font-weight:bold;
+}
+.edukated h1:before{
+  content: "kated";
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  width: 54%;
+ 
+  height: 100%;
+  color: red;
+    font-family: sans-serif;
+}
+.edukated__spaceholder{
+    width:5%;
+}
+.font1{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.navigation__spaceholder{
+    width: 5%;
+}
+.navigation{
+    background-color: gainsboro;
+    color: gray;
+}
+.light__bulb{
+    background-color: #9013fe;
+    border-radius:15px;
+    width:35px;
+    height:35px;
+}
+.updated__course{
+    align-items: center;
+}
+.i__holder{
+    width:80%;
+    height:30%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.icon{
+    align-items: center;
+}
+.name__holder{
+    width:80%;
+}
+.dots{
+    color:gray;
+    display: inline-flex;
+}
+.profile__icon{
+    width: 90%;
+}
+.plus{
+    color:white;
+    display: inline-flex;
+}
+.fa-plus-circle{
+    background-color: black;
+    border-radius: 15px;
+}
+.four__rectangles{
+    justify-content: space-between;
+}
+.streaming__now{
+    padding-left: 2%;
+}
+.cb2{
+   color: black;
+    font-size:17px;
+}
+.cg2{
+    color:gray;
+    font-size:17px;
+}
+.popular__this__week{
+    padding-left: 2%;
+}
+.top__tutors{
+    padding-left: 2%;
+}
+.window1{
+    width:49%;
+    height:100%;
+    border-radius:15px;
+    background-color: blue;
+}
+.two__windows{
+    justify-content: space-between;
+}
+.gif1{
+    width:100%;
+    height:100%;
+    border-radius:15px;
+}
+.icon__holder{
+    width:9%;
+    height:50%;
+    justify-content: space-between;
+    border-radius: 15px;
+    border-style:groove;
+    border-color:darkorange;
+    border-width: 2px;
+    padding: 1px;
+    background-color: white;
+}
+.icon1{
+    border-radius:15px;  
+    width:90%;
+    height:90%;
+}
+.icon__box{
+    justify-content:space-between;
+}
+.fa-fighter-jet{
+    color:darkviolet;
+    background-color: red;
+}
+.fa-car-alt{
+    color:aquamarine;
+    background-color: azure;
+}
+.fa-truck-moving{
+    color:coral;
+    background-color: floralwhite;
+}
+.fa-utensils{
+    color:beige;
+    background-color: firebrick;
+}
+.fa-khanda{
+    color:deepskyblue;
+    background-color: darkslategray;
+}
+.fa-wolf-pack-battalion{
+    color:black;
+    background-color:red;
+}
+.fa-optin-monster{
+    color:darkolivegreen;
+    background-color: darkgrey;
+}
+.fa-jedi-order{
+    color:darksalmon;
+    background-color: forestgreen;
+}
+.i1{
+    background-color:green;
+}
+.i2{
+    background-color: burlywood;
+}
+.i3{
+    background-color: darkseagreen;
+}
+.i4{
+    background-color: darkturquoise;
+}
+.i5{
+    background-color: floralwhite;
+}
+.i6{
+    background-color: darkkhaki;
+}
+.i7{
+    background-color: aqua;
+}
+.i8{
+    background-color: blueviolet;
+}
+.advanced__search{
+    padding-left:2%;
+}
+.special__offers{
+    padding-left: 2%;
+}
+.horizontal__dots1{
+    color:gray;
+    align-items:center;
+    justify-content: flex-end;
+    width:70%;
+}
+.horizontal__dots2{
+    color:gray;
+    align-items:center;
+    justify-content: flex-end;
+    width:78%;
+}
+.horizontal__dots3{
+    color:gray;
+    align-items:center;
+    justify-content: flex-end;
+    width:70%;
+}

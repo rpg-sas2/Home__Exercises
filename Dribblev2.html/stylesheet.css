@@ -1,0 +1,294 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.ctr{
+    justify-content: center;
+    align-items: center;
+}
+.inl{
+    display:inline-block;
+}
+.flex{
+    display:flex;
+}
+.inlflex{
+    display:inline-flex;
+}
+.W{
+    flex-wrap: wrap;
+}
+.NW{
+    flex-wrap: nowrap;
+}
+/*
+.b{
+    background-color: black;
+}
+.r{
+    background-color: red;
+}
+.g{
+    background-color: green;
+}
+.y{
+    background-color: yellow;
+}
+*/
+.blue{
+    background-color:dodgerblue;
+}
+.s{
+    font-family: sans-serif;
+}
+.bld{
+    font-weight:bold;
+}
+.f{
+    font-size:15px;
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
+.fix{
+    position:fixed;
+}
+
+
+
+.navigation{
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-color: slategray;
+}
+.LeftNav{
+    width:14%;
+    height:75px;
+}
+.MiddleNav{
+    width:59%;
+    height:75px;
+}
+.RightNav{
+    width:25%;
+    height:75px;
+}
+.samefont{
+    padding: 10px;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 300;
+}
+.Logos{
+    padding: 10px;
+}
+.LeftSide{
+    width: 40%;
+    height:610px;
+}
+.ArticleHolder{
+    height:610px;
+    width: 100%;
+}
+.midsection{
+    padding-top:50px;
+}
+.RightSide{
+    width:54%;
+    height: 610px;
+}
+.PictureHolder{
+    
+}
+.h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    padding:14px;
+}
+.p1{
+    font-weight:bold;
+    color: gray;
+    padding:14px;
+}
+.f1{
+    font-weight: bold;
+    padding: 14px;
+    color: white;
+    shape-outside: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+    clip-path: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+    background: linear-gradient(to bottom left, #67D7F5, #86F7CC);
+    height: 20px;
+    width: 100px;
+}
+.a1{
+    width:61%;
+}
+.LeftSide1{
+    width:49%;
+    height:700px;
+    padding:10px;
+}
+.PictureHolder1{
+
+}
+.RightSide1{
+    width:30%;
+    height: 700px;
+    padding:10px;
+}
+.Articleholder1{
+    height:240px;
+}
+.h2{
+    font-weight:bolder;
+    font-size:2rem;
+    padding: 14px;
+}
+.p2{
+    font-weight: 500;
+    color:gray;
+    padding: 14px;
+    
+}
+.LeftSide2{
+    width:49%;
+    height:400px;
+}
+.Articleholder2{
+    height:240px;
+}
+.RightSide2{
+    width:39%;
+    height: 400px;
+}
+.h3{
+    font-weight:bolder;
+    font-size:3rem;
+    padding: 14px;
+    color:white;
+}
+.p3{
+    font-weight: 500;
+    color:white;
+    padding: 14px;
+    font-size: 21px;
+}
+.LeftSide3{
+    width:39%;
+    height: 400px;
+}
+.RightSide3{
+     width:49%;
+    height:400px;
+}
+.Articleholder3{
+    height:240px;
+}
+.h4{
+    font-weight:bolder;
+    font-size:3rem;
+    padding: 14px;
+    color:white;
+}
+.p4{
+    font-weight: 500;
+    color:white;
+    padding: 14px;
+    font-size: 21px;
+}
+.Button2{
+    font-weight:bold;
+    color: white;
+    font-size: 21px;
+    padding: 23px;
+    
+    shape-outside: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+    clip-path: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+    background: linear-gradient(to bottom left, #67D7F5, #86F7CC);
+    height: 20px;
+    width: 100px;
+}
+.h5{
+    font-weight:bolder;
+    font-size:2rem;
+    padding-top: 9px;
+    color:black;
+}
+.p5{
+    font-weight: 500;
+    color:gray;
+    padding: 32px;
+    font-size: 21px;
+}
+.font1{
+    font-size:21px;
+    font-weight: 700;
+    color:black;
+}
+.font2{
+    font-size:1rem;
+    font-weight: 300;
+    color:gray;
+}
+.LogoHolder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 17px;
+}
+.m3{
+    padding-bottom: 4px;
+}
+.m2{
+padding-bottom: 11px;
+}
+.m4{
+padding-bottom: 9px;
+}

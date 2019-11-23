@@ -1,0 +1,270 @@
+.Navigation {
+    background-color:red;
+    height:50px;
+    
+}
+.Block{
+    display: inline-block;
+    height:absolute;
+    margin:10px;
+}
+.Page{
+    font-size:1em;
+    color:white;
+    margin:10px;
+}
+.Section{
+    display:inline-block;
+    width:200px;
+}
+.Language{
+    margin-left:300px;
+    font-size:1em;
+    color:white;
+    
+}
+.Login__R{
+    font-size:1em;;
+    color:white;
+    margin-bottom: 10px;
+}
+.Login{
+    font-size:1em;
+    color:black;
+    margin-bottom: 10px;
+}
+.Login__Box{
+    display:inline-block;
+    background-color: white;
+    border-color:white;
+    border-radius:4%;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:12px;
+}
+.Container{
+    width:80%;
+    height:200px;
+    margin:10px 10% 10px 10%;
+    background-color: aqua;
+}
+.Background__Image__Holder {
+    width:100%;
+    height:200px;
+    overflow: hidden;
+}
+.Container__Picture{
+    height:50px;
+    background-color:red;
+    position: absolute;
+    margin-left:25%;
+    top:220px;
+    text-align: center;
+}
+.box {
+    width:80%;
+    margin:10px 10% 10px 10%;
+    background-color: white;
+}
+.film {
+    width:47%;
+    height:25px;
+    border-radius:4%;
+    background-color: red;
+    color:white;
+    display: inline-block;
+    padding: 5px;
+    position: static;
+    text-align: center;
+}
+.seans{
+    width:47%;
+    height:25px;
+    color: black;
+    border-radius:4%;
+    border-color: black;
+    border-width: thick;
+    display: inline-block;
+    margin-left: 4%; 
+    text-align: center;
+    background-color: white;
+}
+.Film{
+    margin-left: 10%;
+    margin-right:10%;
+    display:flex;
+}
+.box3{
+    display:inline-block;
+    background-color: gainsboro;
+    padding: 13px;
+    margin: 4px;
+    
+}
+.Film__container {
+    width:350px;
+    height:200px;
+    border-radius:4%;
+    position: relative;
+}
+
+.image {
+  display: block;
+  width: 350px;
+  height: 200px;
+}
+
+.overlay {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+    width: 350px;
+    height:200px;
+  transition: .5s ease;
+  background-color: rgba(69, 52, 52,0.6);
+}
+
+.Film__container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+    background-color: black;
+    color: red;
+  font-size: 20px;
+    font-weight: bold;
+    border-radius:4%;
+    border-width: 100px;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text2 {
+  position: absolute;
+    background-color: black;
+    color: red;
+  font-size: 20px;
+    border-width:100px;
+    font-weight: bold;
+    border-radius:4%;
+  top: 52%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.Film__container:read-only.hours{
+    display: inline-block;
+    position: absolute;
+    opacity: 1;
+    
+}
+.Attachment {
+    color:black;
+    font-weight: bold;
+}
+.R{
+    background-color: red;
+    width:40px;
+    color: white;
+    display: inline-block;
+}
+.GEO{
+    background-color: red;
+    width:40px;
+    color:white;
+    display: inline-block;
+}
+.film1,.film2,.film3,.film4,.film5{
+    margin-left: 10%;
+    margin-right:10%;
+    display:flex;
+}
+.box4{
+    display:inline-block;
+    background-color: gainsboro;
+    padding: 13px;
+    margin: 4px;
+}
+.Film__container4 {
+    width:160px;
+    height:200px;
+    border-radius:4%;
+    position: relative;
+}
+.image4 {
+  display: block;
+  width: 160px;
+  height: 200px;
+}
+
+.overlay4 {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+    width: 160px;
+    height:200px;
+  transition: .5s ease;
+  background-color: rgba(69, 52, 52,0.6);
+}
+.Film__container4:hover .overlay4 {
+  opacity: 1;
+}
+.text5 {
+     margin-left: 10%;
+    margin-right:10%;
+    background-color: gainsboro;
+    padding-left: 70px;
+    font-size:2em;
+    border-radius: 4%;
+}
+.footer1{
+    background-color: red;
+    width:100%;
+    height:180px;
+    padding-top: 40px;
+    padding-left:300px;
+}
+.links{
+    
+}
+.kinoafisha{
+    margin-top:40px;
+    position: absolute;
+    left:50%;
+    color:white;
+}
+.icon__holder{
+    display:flex;
+    margin-top:20px;
+}
+.icon1{
+    display:inline-block;
+    height:40px;
+    position: absolute;
+    left:50%;
+}
+.icon2{
+    display:inline-block;
+    height:40px;
+    position: absolute;
+    left:52%;
+}
+.icon3{
+    display:inline-block;
+    height:40px;
+    position: absolute;
+    left:54%;
+}
