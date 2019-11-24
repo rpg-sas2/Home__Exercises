@@ -339,15 +339,29 @@ table {
     height:100%;
     border-radius:15px;
     background-color: blue;
+    background-image: url(https://media.giphy.com/media/fm4WhPMzu9hRK/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.window2{
+    width:49%;
+    height:100%;
+    border-radius:15px;
+    background-color: blue;
+    background-image: url(https://media.giphy.com/media/3o7qDQnj6ZvgTAaOru/giphy.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .two__windows{
     justify-content: space-between;
 }
+/*
 .gif1{
     width:100%;
     height:100%;
     border-radius:15px;
 }
+*/
 .icon__holder{
     width:9%;
     height:50%;
@@ -439,11 +453,83 @@ table {
     color:gray;
     align-items:center;
     justify-content: flex-end;
-    width:78%;
+    width:79%;
 }
 .horizontal__dots3{
     color:gray;
     align-items:center;
     justify-content: flex-end;
-    width:70%;
+    width:100%;
+}
+.fa-ellipsis-h{
+    font-size:19px;
+}
+.space1{
+    width:100%;
+    height:54%;
+}
+.stream{
+    position: relative;
+    top:5%;
+    bottom:0;
+    left:0;
+    right: 0;
+    width:90%;
+    height:90%;
+}
+.text__holder{
+    padding:5%;
+    width: 90%;
+    border-radius: 15px;
+    height:20%;
+    background-color: rgba(150,13,10,0.3);
+}
+.cw{
+    color: white;
+}
+.space2{
+    width: 2%;
+}
+.time{
+    border-radius: 15px;
+    width:34%;
+    height:10%;
+    background-color:orangered;
+    font-weight: 12px;
+}
+.space3{
+    width:100%;
+    height:2%;
+}
+.first__rectangle{
+    width:100%;
+    height:45%;
+    border-radius:15px;
+    background-image:url(https://media.giphy.com/media/RTXssHOXDW0Eg/giphy.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.second__rectangle{
+    width:45%;
+    height:100%;
+    border-radius:15px;
+    background-image: url(https://media.giphy.com/media/13Zw8JfsuY6dqM/giphy.gif);
+        background-repeat:no-repeat;
+    background-size:cover;
+}
+.third__rectangle{
+    width:45%;
+    height:100%;
+    border-radius:15px;
+    background-image: url(https://media.giphy.com/media/pO4UHglOY2vII/giphy.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.two__rects{
+    width: 100%;
+    height:45%;
+    justify-content: space-between;
+}
+.three__windows{
+    align-content: space-between;
 }
